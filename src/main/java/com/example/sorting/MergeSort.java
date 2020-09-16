@@ -10,7 +10,7 @@ public class MergeSort {
         3. recursively call mergeSort for second half:
         4. Merge the two halves which has been sorted as above
      */
-    public static void mergeSort(int[] input, int l, int r){
+    private static void mergeSort(int[] input, int l, int r){
         if (l < r) {
             // Find the middle point of array
             //Avoid overflow, same as m = (l + r) /2
@@ -32,7 +32,7 @@ public class MergeSort {
         value of the 1st sub array is from arr[l] to arr[m]
         value of the 2nd sub array is from arr[m+1] to arr[r]
      */
-    public static void merge(int[] input, int l, int m, int r) {
+    private static void merge(int[] input, int l, int m, int r) {
 
         int sizeOfSubArr1 = m - l + 1;
         int sizeOfSubArr2 = r - m;
