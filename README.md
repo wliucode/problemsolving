@@ -1,2 +1,2 @@
-# problemsolving
+# Problem Solving
 ##  Task: Merge Sort
