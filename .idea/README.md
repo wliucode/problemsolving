@@ -1,3 +1,0 @@
-Task
-
-Merge Sort
