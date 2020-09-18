@@ -1,3 +1,2 @@
 # problemsolving
-##  Task
-### Merge Sort
+##  Task: Merge Sort
